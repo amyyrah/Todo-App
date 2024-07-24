@@ -1,0 +1,81 @@
+/* app.css */
+
+/* General body styling for the entire app */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Use a clean and modern font */
+  background-color: #f0f2f5; /* Light background color */
+  color: #333; /* Dark text color for readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff; /* White background for the todo list */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align the title and other content */
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/* Use a modern sans-serif font */
+  color: #c94c9d; /* Soft pink color for the title */
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 2em; /* Larger font size for prominence */
+}
+
+/* Style for the todo list */
+
+
+.todo-list h1 {
+  font-size: 2.5em;
+  color: #030303; /* Purple-pink color */
+  margin-bottom: 20px;
+  font-family: 'Pacifico', cursive; /* Fancy font */
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #c94c9d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d43f5a;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+}
